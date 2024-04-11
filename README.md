@@ -1,7 +1,5 @@
-# project2
-
-A new Flutter project.
-
+# Currency Converter App
+## This is a Flutter App.  Here It take USD and convert in BDT.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
