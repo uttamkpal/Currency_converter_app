@@ -1,5 +1,6 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:project2/pages/material_home_page.dart';
+
 
 void main() {
   runApp( const MyApp());
@@ -24,11 +25,7 @@ class MyApp extends StatelessWidget {
 // 2. Cupertino Design - Created by Apple
 // import 'package:flutter/cupertino.dart';
     return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-            child: Text("Hello World App"),
-        ),
-      ),
+      home: MaterialHomePage(),
     );
 
 
